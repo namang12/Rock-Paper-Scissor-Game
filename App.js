@@ -41,8 +41,8 @@ const computerChoice=computeroptions[computernum];
 setTimeout(() => {
     compareHands(this.textContent,computerChoice,person);
  //Update Images
- playerHand.src = `./assessts/${this.textContent}.png`;
- computerHand.src = `./assessts/${computerChoice}.png`;
+ playerHand.src = `./assets/${this.textContent}.png`;
+ computerHand.src = `./assets/${computerChoice}.png`;
 }, 2000);
 //Animation
 playerHand.style.animation = "shakePlayer 2s ease";
